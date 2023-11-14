@@ -1,0 +1,35 @@
+.contatos {
+  display: flex;
+  position: fixed;
+
+  right: 0px;
+  flex-direction: column;
+  text-decoration: none;
+  z-index: 1000;
+}
+.contatos a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.Insta {
+  width: 30px;
+  height: 30px;
+  background-color: #ff0076;
+  padding: 4px;
+  border-radius: 8px 0px 0px;
+}
+.Whatsapp {
+  width: 30px;
+  height: 30px;
+  background-color: #43df24;
+  padding: 4px;
+}
+.Behance {
+  width: 30px;
+  height: 30px;
+  background-color: #0044ff;
+  padding: 4px;
+  border-radius: 0px 0px 0px 8px;
+}

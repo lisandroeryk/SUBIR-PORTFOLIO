@@ -1,0 +1,38 @@
+.fullview {
+  display: block;
+  margin: auto;
+  width: 1920px;
+
+  position: fixed;
+  transform-style: preserve-3d;
+  z-index: 2000;
+  max-width: 100%;
+}
+#fullimagelink {
+  display: none;
+  position: relative;
+  width: 750px;
+
+  background-color: rgba(0, 0, 0, 76%);
+  transform-style: preserve-3d;
+  z-index: 800;
+  margin: auto;
+  backdrop-filter: blur(16px);
+  border-radius: 20px;
+  padding: 20px;
+  top: -85px;
+}
+#fullimagelink img {
+  max-width: 100%;
+}
+
+#CloseBotom {
+  color: white;
+  position: absolute;
+  right: -60px;
+  cursor: pointer;
+}
+#CloseBotom .ph-bold {
+  color: white;
+  font-size: 30px;
+}
